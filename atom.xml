@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sonsure.github.io</id>
+    <id>https://sosnuer.gitHub.io</id>
     <title>安哥有财</title>
-    <updated>2020-04-05T11:10:38.145Z</updated>
+    <updated>2020-04-05T11:39:34.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sonsure.github.io"/>
-    <link rel="self" href="https://sonsure.github.io/atom.xml"/>
+    <link rel="alternate" href="https://sosnuer.gitHub.io"/>
+    <link rel="self" href="https://sosnuer.gitHub.io/atom.xml"/>
     <subtitle>有趣会撩80后理财老司机</subtitle>
-    <logo>https://sonsure.github.io/images/avatar.png</logo>
-    <icon>https://sonsure.github.io/favicon.ico</icon>
+    <logo>https://sosnuer.gitHub.io/images/avatar.png</logo>
+    <icon>https://sosnuer.gitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 安哥有财</rights>
     <entry>
         <title type="html"><![CDATA[安哥]]></title>
-        <id>https://sonsure.github.io/post/an-ge/</id>
-        <link href="https://sonsure.github.io/post/an-ge/">
+        <id>https://sosnuer.gitHub.io/post/an-ge/</id>
+        <link href="https://sosnuer.gitHub.io/post/an-ge/">
         </link>
         <updated>2020-04-05T04:09:13.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[理财小白到进阶，正确入门指南｜值得收藏]]></title>
-        <id>https://sonsure.github.io/post/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang/</id>
-        <link href="https://sonsure.github.io/post/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang/">
+        <id>https://sosnuer.gitHub.io/post/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang/</id>
+        <link href="https://sosnuer.gitHub.io/post/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang/">
         </link>
         <updated>2020-04-05T03:48:19.000Z</updated>
     </entry>
