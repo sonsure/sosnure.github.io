@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sonsure.github.io</id>
     <title>安哥有财</title>
-    <updated>2020-04-05T03:54:06.604Z</updated>
+    <updated>2020-04-05T04:12:43.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sonsure.github.io"/>
     <link rel="self" href="https://sonsure.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://sonsure.github.io/images/avatar.png</logo>
     <icon>https://sonsure.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 安哥有财</rights>
+    <entry>
+        <title type="html"><![CDATA[安哥]]></title>
+        <id>https://sonsure.github.io/post/an-ge/</id>
+        <link href="https://sonsure.github.io/post/an-ge/">
+        </link>
+        <updated>2020-04-05T04:09:13.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[理财小白到进阶，正确入门指南｜值得收藏]]></title>
         <id>https://sonsure.github.io/post/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang/</id>
