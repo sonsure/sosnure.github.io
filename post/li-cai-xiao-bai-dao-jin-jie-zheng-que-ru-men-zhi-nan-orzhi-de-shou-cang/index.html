@@ -1,107 +1,111 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>理财小白到进阶，正确入门指南｜值得收藏 | 安哥有财</title>
-<link rel="shortcut icon" href="https://sonsure.github.io/favicon.ico?v=1586084005208">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="有趣会撩80后理财老司机">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://sonsure.github.io/favicon.ico?v=1586085035293">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://sonsure.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="理财小白到进阶，正确入门指南｜值得收藏 | 安哥有财 - Atom Feed" href="https://sonsure.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="@安哥：最近很多知友问我，理财应该怎么做，从哪里开始，
-
-而在日常的问题邀请里面，关于理财类足有2千条之多
-
-应各位学员朋友需求，本文科普入门方法与技巧，以及避坑指南。
-我将通过：为什么？是什么？如何做？
-这个顺序给大家讲解，内容如下
-你为..." />
-    <meta name="keywords" content="理财" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://sonsure.github.io">
-  <img class="avatar" src="https://sonsure.github.io/images/avatar.png?v=1586084005208" alt="">
-  </a>
-  <h1 class="site-title">
-    安哥有财
-  </h1>
-  <p class="site-description">
-    有趣会撩80后理财老司机
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          文章
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://sonsure.github.io/post/an-ge" class="menu">
-          安哥
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://sonsure.github.io">
+        <img class="avatar" src="https://sonsure.github.io/images/avatar.png?v=1586085035293" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://sonsure.github.io">
+        <h1 class="site-title">安哥有财</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://sonsure.github.io/post/an-ge" class="menu purple-link">
+            安哥
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              理财小白到进阶，正确入门指南｜值得收藏
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-04-05
-              </span>
-              <span>
-                6 min read
-              </span>
-              
-                <a href="https://sonsure.github.io/tag/46UAA_IU4/" class="post-tag">
-                  # 理财
-                </a>
-              
+          
+            <div class="feature-container" style="background-image: url('https://sonsure.github.io/post-images/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang.jpg')">
             </div>
+          
+          <h2 class="post-title">理财小白到进阶，正确入门指南｜值得收藏</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-05</span>
             
-              <img class="post-feature-image" src="https://sonsure.github.io/post-images/li-cai-xiao-bai-dao-jin-jie-zheng-que-ru-men-zhi-nan-orzhi-de-shou-cang.jpg" alt="">
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://sonsure.github.io/tag/46UAA_IU4/">
+                    理财
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>@安哥：最近很多知友问我，理财应该怎么做，从哪里开始，<br>
+          </div>
+          <div class="post-content">
+            <p>@安哥：最近很多知友问我，理财应该怎么做，从哪里开始，<br>
 <img src="https://sonsure.github.io/post-images/1586058562292.jpg" alt="" loading="lazy"></p>
 <p>而在日常的问题邀请里面，关于理财类足有2千条之多</p>
 <figure data-type="image" tabindex="1"><img src="https://sonsure.github.io/post-images/1586058580986.jpg" alt="" loading="lazy"></figure>
@@ -218,93 +222,78 @@
 <p>我会尽能解答。<br>
 <img src="https://sonsure.github.io/post-images/1586058836256.jpeg" alt="" loading="lazy"></p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
 
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      
 
-<div id="gitalk-container"></div>
+      <div class="site-footer">
+  <div class="slogan">有趣会撩80后理财老司机</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://sonsure.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-<script>
 
-  var gitalk = new Gitalk({
-    clientID: '6836953f15b3c7ee54ce',
-    clientSecret: 'f6ddb9e728303c0f3d3df4fbe7be6810cd3a22a9',
-    repo: 'sonsure.github.io',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+    </div>
+    <script type="application/javascript">
 
-  gitalk.render('gitalk-container')
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
-          
 
-          
-        
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://sonsure.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
-    </div>
-
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '6836953f15b3c7ee54ce',
+        clientSecret: 'f6ddb9e728303c0f3d3df4fbe7be6810cd3a22a9',
+        repo: 'sonsure.github.io',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
